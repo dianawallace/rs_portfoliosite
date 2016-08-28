@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700italic,700);
+
+header {
+    height: 430px;
+    background: #2980b9 url(../images/wallace_banner_capella.jpg) no-repeat center bottom;
+}
+
+.navbar {
+    background-color: #2980b9;    
+    height: 75px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 0;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-custom {
+    border: 0;
+}
+
+.navbar-nav>li>a:hover {
+    background-color: none !important;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+.intro {
+    background-color: #2980b9;
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #e3e3e3;
+}
+
+/* Text */
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.8em;
+    margin-left: 70px;
+}
+
+h2 {
+    margin: 0 0 .5em 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.1em;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin: 15px 15px 0;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h4 {
+    margin: 0 0 1.5em 0;
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    margin: .5em 0 1em 0;
+    text-align: center;
+}
+
+a, a:visited {
+    color: black;
+}
+
+a {
+    color: #89bdd3;
+}
+
+a.btn {
+    font-size: 1.0em;
+    text-decoration: none;
+    color: #e3e3e3;
+    border: 1px solid #e3e3e3;
+    padding: 4px 15px;
+    transition: background-color .5s;
+    margin-left: 115px;
+    margin-top: 50px;
+}
+
+a.btn:hover {
+    background-color: rgba(0,0,0,.3);
+}
+
+.about-me {
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.portfolio {
+    margin: 0 0 20px 0;
+}
+
+.masonry {
+    background-color: #e3e3e3;
+}
+
+.grid-item { 
+    width: 200px; 
+}
+
+.grid-item--width2 { 
+    width: 400px; 
+}
+
+.projects {
+    color: #e3e3e3;
+    background-color: #2980b9;
+}
+
+.projects a {
+    color: #e3e3e3;
+}
+
+.social {
+    background-color: #e3e3e3;
+}
+
+.icons li {
+    display: inline;
+    margin: 10px;
+}
+
+.social-icons {
+    text-align: center;
+    padding-right: 40px;
+}
+
+.icons {
+    padding-left: 0;
+}
+
+.copy {
+    text-align: center;
+}
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+
+/* ---- grid ---- */
+
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.grid-item--gigante {
+  width: 320px;
+  height: 360px;
+}
+
+@media (min-width: 700px) {
+
+h1 {
+    font-size: 3.0em;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    
+}
+
+a.btn {
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+}
+
+@media (min-width: 1024px) {  
+    
+h1 {
+    font-size: 3.5em;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 20px;
+}
+    
+p {
+    font-size: 20px;
+}
+
+}
